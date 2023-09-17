@@ -16,3 +16,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.smail {
+font-size: 50px;
+color: mediumblue;
+display: grid;
+margin-top: 20px;
+
+}
+
+.timer {
+  font-size: large;
+  color: darkmagenta;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
