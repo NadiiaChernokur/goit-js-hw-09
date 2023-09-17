@@ -10,19 +10,17 @@ function getRandomHexColor() {
   }
 
 
-function  onStart() {
+function onStart() {
     timerId = setInterval(() => {
         document.body.style.background = getRandomHexColor();
         startBtn.setAttribute('disabled', "");
+         
     }, 1000) 
-    
 };
 
-
-function onStop(){
+function onStop() {
     clearInterval(timerId);
     startBtn.removeAttribute('disabled', "");
-    
      document.body.style.background = "white";
    
 };

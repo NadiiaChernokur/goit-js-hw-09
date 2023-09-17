@@ -2,7 +2,6 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 
 const sM = document.querySelector(".timer");
-console.log(sM)
 
 const inputText = document.querySelector("input#datetime-picker");
 const startBtn = document.querySelector("button[data-start]");
@@ -70,7 +69,7 @@ startBtn.setAttribute('disabled', "");
       clearInterval(intervalId);
       sM.insertAdjacentHTML("afterend", `
       <div class="smail">ох і завдання у вас...</div>
-      <img src="/src/зображення_viber_2023-09-09_00-31-07-696.jpg" alt="Cat" width="500" height="540">
+      <img src="./src/зображення696.jpg" alt="Cat" width="500" height="540">
       `)
       console.log("Ура!!!")
     }
