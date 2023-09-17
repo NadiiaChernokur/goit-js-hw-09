@@ -1,0 +1,2 @@
+const e=document.querySelector("button[type='submit']"),t=document.querySelector("input[name='amount']"),n=document.querySelector("input[name='step']"),o=document.querySelector("input[name='delay']"),u=t.textContent;o.textContent,n.textContent;e.addEventListener("submit",(function(e){preventDefault(e);for(let e=0;e<=u;e++){i+=e}}));let i=0;createPromise(2,1500).then((({position:e,delay:t})=>{console.log(`✅ Fulfilled promise ${e} in ${t}ms`)})).catch((({position:e,delay:t})=>{console.log(`❌ Rejected promise ${e} in ${t}ms`)}));
+//# sourceMappingURL=03-promises.4f73b4ac.js.map
