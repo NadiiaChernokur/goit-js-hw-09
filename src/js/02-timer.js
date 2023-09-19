@@ -66,7 +66,7 @@ startBtn.insertAdjacentHTML("afterend", `<button type="button" hidden data-start
 
         startBtn.insertAdjacentHTML("afterend", `<button type="button" class="active" data-start>Змінити дату</button>`)
         const buttonChangeDate = document.querySelector(".active");
-        buttonChangeDate.addEventListener("click",  toChange = () => {
+        buttonChangeDate.addEventListener("click",   () => {
           startBtn.removeAttribute('disabled', "");
           buttonChangeDate.setAttribute('hidden', "");
           window.alert("Воно вам треба?")
