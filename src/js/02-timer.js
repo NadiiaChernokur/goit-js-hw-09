@@ -3,6 +3,8 @@ import "flatpickr/dist/flatpickr.min.css";
 import img from '/src/img/Cat.jpg';
 
 const sM = document.querySelector(".timer");
+const buttonChangeDate = document.querySelector(".aktive");
+
 
 
 const inputText = document.querySelector("input#datetime-picker");
@@ -64,8 +66,8 @@ startBtn.insertAdjacentHTML("afterend", `<button type="button" hidden data-start
       
       startBtn.setAttribute('disabled', "");
 
-        startBtn.insertAdjacentHTML("afterend", `<button type="button" class="active" data-start>Змінити дату</button>`)
-        const buttonChangeDate = document.querySelector(".active");
+        startBtn.insertAdjacentHTML("afterend", `<button type="button" class="aktive" data-start>Змінити дату</button>`)
+        const buttonChangeDate = document.querySelector(".aktive");
         buttonChangeDate.addEventListener("click",   () => {
           startBtn.removeAttribute('disabled', "");
           buttonChangeDate.setAttribute('hidden', "");
